@@ -1,4 +1,4 @@
-# smart-voice
+# smart-voice2
 A smart app which can automatically recognize one's voice and tranfer it to written language.
 Platform support android 6.1.2 and ios 4.3.1
 
