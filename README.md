@@ -3,7 +3,7 @@ A smart app which can automatically recognize one's voice and tranfer it to writ
 Platform support android 6.1.2 and ios 4.3.1
 
 ## First Part
-Ahead of all, run "npm install -g cordova ionic" and run "ionic start myApp blank"
+Ahead of all, run "npm install -g cordova ionic" and run "ionic start smart-voice2 --v2"
 
 ## Main Contents
 1.Firstly, run "npm install" in the root directory of this project<br>
