@@ -10,18 +10,18 @@
   <!-- Text to Speech -->
   <div class="list list-inset">
     <label class="item item-input">
-      <i class="icon ion-speakerphone placeholder-icon"></i>
+      <ion-icon name="heart"></ion-icon>
       <input type="text" placeholder="Input text..." ng-model="data.speechText">
     </label>
   </div>
   <button ion-button color="primary" outline block ng-click="speakText()">
-    <i class="icon ion-speakerphone placeholder-icon"></i>
-    Text to Speech
+    <ion-icon name="ios-megaphone"></ion-icon>
+    &nbsp;Text to Speech
   </button>
   <!-- Speech to Text -->
-  <button class="button button-full button-positive" ng-click="record()">
-    <i class="icon ion-ios-mic placeholder-icon"></i>
-    Speech to Text
+  <button ion-button color="primary" outline block ng-click="record()">
+    <ion-icon name="ios-mic"></ion-icon>
+    &nbsp; Speech to Text
   </button>
   <div class="card">
     <div class="item item-text-wrap">
