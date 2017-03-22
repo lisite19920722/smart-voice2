@@ -12,4 +12,6 @@ export class HomePage {
 
   }
 
+  myIcon: string = "ios-mic";
+
 }
