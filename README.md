@@ -13,7 +13,7 @@ Ahead of all, run "npm install -g cordova ionic" and run "ionic start smart-voic
   and "cordova plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin-inappbrowser.git"<br>
 
 ## Last Part
-By running "ionic build android --prod --release" and "ionic run android --prod --release", the app can be added to the mobile phone
+By running "ionic build android --prod --release" and "ionic run android --prod --release --device", the app can be added to the mobile phone
 
 
 ### Notification
