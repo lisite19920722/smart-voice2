@@ -5,6 +5,8 @@ import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
+import { TextToSpeech } from '@ionic-native/text-to-speech';
+
 
 @NgModule({
   declarations: [
@@ -25,6 +27,6 @@ import { TabsPage } from '../pages/tabs/tabs';
     HomePage,
     TabsPage
   ],
-  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
+  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, TextToSpeech]
 })
 export class AppModule {}
