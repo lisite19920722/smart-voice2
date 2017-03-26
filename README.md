@@ -13,8 +13,11 @@ Ahead of all, run "npm install -g cordova ionic" and run "ionic start smart-voic
   and "cordova plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin-inappbrowser.git"<br>
 
 ## Last Part
+Android:
 By running "ionic build android --prod --release" and "ionic run android --prod", the app can be added to the mobile phone
-
+iOS:
+sudo chmod -R a+rwx /appfolder
+By running "ionic build ios --prod" and "sudo ionic emulate ios --target="iPhone-7", the app can be emulated
 
 ### Notification
 What's more, by configuring config.xml and run "ionic resources", the pictures named icon.png and splash.png in the "resources folder" can
